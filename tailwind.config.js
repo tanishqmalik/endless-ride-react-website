@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'photopea': "url('src/assets/Photopea.png')",
+      }
+    },
   },
   plugins: [],
 }

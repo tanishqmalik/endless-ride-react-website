@@ -1,14 +1,12 @@
 
 import './App.css'
+import Header from './components/header/header';
 
 function App() {
 
   return (
-    <>
-    <h1 className="text-black font-bold bg-purple-400">hideww there</h1>
-    </>
-    
+    <Header/>
   )
 }
 
-export default App
+export default App;
