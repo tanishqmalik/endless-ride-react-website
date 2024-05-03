@@ -14,10 +14,10 @@ function Navbar() {
       </ul>
 
       <div className='flex gap-6 mr-10'>
-        <img className='h-[45px] w-[45px]' src="/public/1.png"></img>
-        <img className='h-[45px] w-[45px]' src="/public/2.png"></img>
-        <img className='h-[45px] w-[45px]' src="/public/3.png"></img>
-        <img className='h-[45px] w-[45px]' src="/public/4.png"></img>
+        <img className='h-[45px] w-[45px]' src="/1.png"></img>
+        <img className='h-[45px] w-[45px]' src="/2.png"></img>
+        <img className='h-[45px] w-[45px]' src="/3.png"></img>
+        <img className='h-[45px] w-[45px]' src="/4.png"></img>
       </div>
     </div>
   )
