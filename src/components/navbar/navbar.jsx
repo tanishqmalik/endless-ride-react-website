@@ -2,6 +2,9 @@ import React from 'react'
 
 function Navbar() {
   return (
+    <>
+
+    <img className="absolute left-10 top-5" src="/logo.svg"/>   
     <div className='absolute top-10 flex flex-wrap gap-[70px] items-center right-[10px]'>
 
       <ul className='flex flex-wrap list-none gap-6 text-white cursor-pointer'>
@@ -20,6 +23,7 @@ function Navbar() {
         <img className='h-[45px] w-[45px]' src="/4.png"></img>
       </div>
     </div>
+    </>
   )
 }
 

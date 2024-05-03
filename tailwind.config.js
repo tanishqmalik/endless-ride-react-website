@@ -8,9 +8,8 @@ export default {
     extend: {
       backgroundImage: {
         'photopea': "url('src/assets/Photopea.png')",
-      }
+      },
     },
   },
   plugins: [],
 }
-

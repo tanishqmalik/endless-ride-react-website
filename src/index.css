@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/public/fonts/BebasNeue-Regular.ttf') format('ttf'),
+}
+
+.font-custom {
+  font-family: 'Bebas', sans-serif;
+}
+
+
+
 
 
 
