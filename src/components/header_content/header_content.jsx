@@ -7,7 +7,5 @@ function Header_content() {
       <img className='h-[500px] w-[800px] relative bottom-7' src="/bike.png"></img>
     </div>
   )
-
-  // 
 }
 export default Header_content

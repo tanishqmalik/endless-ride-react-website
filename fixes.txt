@@ -1,0 +1,2 @@
+logo fix
+add hover effect on navbar elements

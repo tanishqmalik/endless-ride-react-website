@@ -1,13 +1,16 @@
 import React from 'react'
+import './navbar.css'
 
 function Navbar() {
   return (
     <>
 
-    <img className="absolute left-10 top-5" src="/logo.svg"/>   
+    {/* <img className="absolute left-10 top-5" src="/logo.svg"/>    */}
+
+
     <div className='absolute top-10 flex flex-wrap gap-[70px] items-center right-[10px]'>
 
-      <ul className='flex flex-wrap list-none gap-6 text-white cursor-pointer'>
+      <ul id="navbarmain" className='flex flex-wrap list-none gap-6 text-white cursor-pointer'>
         <li>HOME</li>
         <li>DESTINATIONS</li>
         <li>MOTORCYCLES</li>
