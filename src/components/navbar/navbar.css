@@ -5,3 +5,7 @@
 ul li{
     filter: drop-shadow(3.709px 1.498px 0px rgba(0, 0, 0, 0.2));
 }
+
+#navbaricons{
+    color: aliceblue;
+}

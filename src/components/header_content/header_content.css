@@ -1,3 +1,13 @@
 h1{
     font-family: "Molle",cursive;
 }
+
+@media screen and (max-width:1331px){
+    #heading_h1{
+        width: 1000px;
+    }
+    #img_header{
+        width: 670px;
+        bottom: 20px;
+    }
+}

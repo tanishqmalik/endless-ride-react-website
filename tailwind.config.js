@@ -10,6 +10,11 @@ export default {
         'photopea': "url('src/assets/Photopea.png')",
       },
     },
+
+    screens:{
+      '1331_px':{'max': '1331px'}
+      
+    }
   },
   plugins: [],
 }

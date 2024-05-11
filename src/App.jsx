@@ -12,10 +12,10 @@ function App() {
     <>
     <div>
     <Header/>
-    <div className='flex'>
+    {/* <div className='flex'> */}
     <Navbar/>
     <Logo/>
-    </div>
+    {/* </div> */}
     <Header_content/>
     
     </div>
