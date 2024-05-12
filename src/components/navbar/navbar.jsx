@@ -8,7 +8,7 @@ function Navbar() {
     {/* <img className="absolute left-10 top-5" src="/logo.svg"/>    */}
 
 
-    <div className='absolute top-10 flex gap-[70px] items-center right-[10px] 1331_px: ml-[24%] slow-slide'>
+    <div id="navbar_content" className='absolute top-10 flex  gap-[75px] items-center right-[10px] 1331_px: ml-[24%]'>
       <ul id="navbarmain" className='flex list-none gap-6 text-white cursor-pointer'>
         <li>HOME</li>
         <li>DESTINATIONS</li>
@@ -37,7 +37,7 @@ function Navbar() {
       </div> */}
 
 
-        <div className='flex gap-6 mr-10 '>
+        <div className='flex gap-6 mr-10'>
         {/* <i class="fa-brands fa-youtube border-2 rounded-full p-[10px] border-solid"></i> */}
         
         <i id="navbaricons" class="fa-brands fa-facebook-f  border-2 rounded-[100%] p-[10px] h-[35px] w-[35px] flex items-center justify-center border-solid cursor-pointer"></i>

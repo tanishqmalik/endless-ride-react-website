@@ -9,3 +9,19 @@ ul li{
 #navbaricons{
     color: aliceblue;
 }
+
+
+@media screen and (max-width:1331px) {
+    #navbar_content{
+        right: -20px;
+    }
+
+}
+
+
+@media screen and (max-width:1154px) {
+    #navbarmain{
+        display: none;
+    }
+}
+
