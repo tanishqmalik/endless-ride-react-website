@@ -1,0 +1,6 @@
+@media screen and (max-width:1154px) {
+    img{
+        /* width: 100%; */
+        top:-10px;
+    }
+}

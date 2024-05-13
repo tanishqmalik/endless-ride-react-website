@@ -10,10 +10,26 @@ h1{
         width: 700px;
         bottom: 20px;
     }
+}
 
-    #navbar_content{
-        gap: 50px;
+@media screen and (max-width:1064px) {
+    #heading_h1{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:626px){
+    #heading_h1{
+        font-size: 50px;
+    }
+    #img_header{
+        height: 370px;
+        width: 700px;
+        bottom: 20px;
     }
 
-
+    #header_content{
+        padding-top: 250px;
+    }
 }

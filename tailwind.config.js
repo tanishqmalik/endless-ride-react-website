@@ -14,7 +14,8 @@ export default {
     screens:{
       '1331_px':{'max': '1331px'},
       '1154_px':{'max': '1154px'},
-      '974_px':{'max': '974px'}
+      '974_px':{'max': '974px'},
+      '996_px':{'max': '996px'}
       
     }
   },

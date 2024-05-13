@@ -4,3 +4,9 @@
         top:10px
     }
 }
+
+@media screen and (max-width:1154px) {
+    #logo{
+        left:70px;
+    }
+}
