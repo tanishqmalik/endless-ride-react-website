@@ -26,3 +26,12 @@ ul li{
     }
 }
 
+@media screen and (max-width:626px){
+    #navbaricons{
+        display: none;
+    }
+
+    #menu{
+        position: relative;
+    }
+}

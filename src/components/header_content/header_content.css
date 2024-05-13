@@ -10,11 +10,23 @@ h1{
         width: 700px;
         bottom: 20px;
     }
+    img{
+        top:-30px
+    }
 }
+
+
 
 @media screen and (max-width:1064px) {
     #heading_h1{
         width: 100%;
+    }
+}
+
+
+@media screen and (max-width:955px) {
+    img{
+        top:-40px;
     }
 }
 
@@ -32,4 +44,10 @@ h1{
     #header_content{
         padding-top: 250px;
     }
+
+    img{
+      top:-20px;
+    }
+    
 }
+
