@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@media screen and (max-width:626px){
+  #body{
+    height: 700px;
+  }
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
