@@ -2,7 +2,7 @@ import {
     h1,
     h2,
     h3
-} from '../assets/assets/index'
+} from '../assets/index'
 
 export const data = [
     {

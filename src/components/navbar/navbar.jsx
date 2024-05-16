@@ -45,7 +45,7 @@ function Navbar() {
         <i id="navbaricons" class="fa-brands fa-wikipedia-w border-2 rounded-[100%] p-[10px] h-[35px] w-[35px] flex items-center justify-center border-solid cursor-pointer"></i>
         <i id="navbaricons" class="fa-brands fa-youtube border-2 rounded-full p-[10px] h-[35px] w-[35px] flex items-center justify-center border-solid cursor-pointer"></i>
 
-        <img id ="menu" src="./assets/Menu icon.svg" className='hidden 1154_px:block cursor-pointer'></img>
+        <img id ="menu" src="src/assets/Menu icon.svg" className='hidden 1154_px:block cursor-pointer'></img>
       </div>
 
       

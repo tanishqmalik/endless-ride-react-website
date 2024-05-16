@@ -13,10 +13,8 @@ function App() {
     <>
     <div>
     <Header/>
-    {/* <div className='flex'> */}
     <Navbar/>
     <Logo/>
-    {/* </div> */}
     <Header_content/>
     <Header2/>
     <Header3/>
