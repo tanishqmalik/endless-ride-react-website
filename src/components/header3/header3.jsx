@@ -3,7 +3,7 @@ import './header3.css'
 
 function header3() {
   return (
-    <div className='pt-[180px] h-screen'>
+<div className='pt-[180px] h-screen 1059_px:hidden'>
     <div id="header3" className="flex flex-row  relative ">
 
       <div id="header3_1st" className="absolute left-[-280px] top-0 h-[10vh]">

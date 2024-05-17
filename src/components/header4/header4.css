@@ -1,3 +1,13 @@
 span{
     font-family: oswald;
 }
+
+@media screen and (max-width:1059px) {
+    #two{
+        gap:68px;
+    }
+
+    #one{
+        padding-top: 89px;
+    }
+}
