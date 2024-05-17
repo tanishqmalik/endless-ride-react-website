@@ -9,6 +9,10 @@ export default {
       backgroundImage: {
         'photopea': "url('src/assets/Photopea.png')",
       },
+
+      colors:{
+        'D9D9D9':'#D9D9D9'
+      }
     },
 
     screens:{
