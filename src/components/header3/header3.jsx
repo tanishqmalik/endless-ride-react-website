@@ -8,17 +8,7 @@ function header3() {
 
       <div id="header3_1st" className="absolute left-[-280px] top-0 h-[10vh]">
         <img id='header3_1stimg' className='relative' src="src/assets/header3_1.png" />
-        <div className='relative top-[-530px] left-56 flex flex-col gap-5 items-start'>
-          <span id="header3_headings" className='text-white text-[48px] font-medium'>WE ARE WORLD WIDE</span>
-          <span id="header3_subheading" className='text-[28.8px] text-white'>10 reasons why USA.</span>
-          <p className='text-white opacity-65 w-[56%] text-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-
-          <span id="header3_subheading" className='text-[28.8px] text-white'>10 reasons why USA.</span>
-          <p className='text-white opacity-65 w-[56%] text-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-
-          <span id="header3_subheading" className='text-[28.8px] text-white'>10 reasons why USA.</span>
-          <p className='text-white opacity-65 w-[56%] text-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        </div>
+        
       </div>
 
       <div className="absolute right-[-350px] top-[40px] h-[10vh] 1331_px:top-0">

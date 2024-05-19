@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-@media screen and (max-width:626px){
-  #body{
-    height: 700px;
-  }
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
