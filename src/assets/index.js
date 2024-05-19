@@ -7,6 +7,9 @@ import Rectangle from './Rectangle.png'
 import logo from './logo.png'
 import bike from './bike.png'
 import bike2 from './header3_2.png'
+import mainrider1 from './header3_2.1.png'
+import mainrider2 from './header3_2.2.png'
+import mainrider3 from './header3_2.3.png'
 
 
 export {
@@ -18,5 +21,8 @@ export {
     Rectangle,
     logo,
     bike,
-    bike2
+    bike2,
+    mainrider1,
+    mainrider2,
+    mainrider3
 } 

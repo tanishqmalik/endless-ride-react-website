@@ -4,6 +4,8 @@ import {
     h3
 } from '../assets/index'
 
+import { mainrider1,mainrider2,mainrider3 } from '../assets/index'
+
 export const navLinks =[
     {
         name:"HOME"
@@ -68,5 +70,20 @@ export const data3 =[
     {
         subheading: "10 resons why USA.",
         subpara: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+    }
+]
+
+export const data4 =[
+    {
+        img:mainrider1,
+        name:"ALEX DOE"
+    },
+    {
+        img:mainrider2,
+        name:"STEVE DOE"
+    },
+    {
+        img:mainrider3,
+        name:"BILL DOE"
     }
 ]

@@ -1,0 +1,82 @@
+@media screen and (max-width: 1200px){
+    #bike2{
+        display: none;
+    }
+
+    #box1{
+        top:0   
+    }
+    #box2{
+        top:0
+    }
+
+    #card3{
+        left:20px
+    }
+}
+
+@media screen and (max-width:1022px){
+    #section3_container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #box2, #box1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #card2{
+        left:20px;
+    }
+
+    #card2_sub{
+        align-items: center;
+    }
+
+    #card2_heading{
+        left: 20px;
+    }
+
+    #card3{
+        left:5px;
+    }
+
+    #box1{
+        width: auto;
+        height: auto;
+    }
+
+    #box2{
+        width:auto;
+        height: auto;
+    }
+
+    #card2_sub2{
+        align-items: center;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:1073px){
+    #box2, #box1{
+        width:auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1018px){
+    #card3_sub{
+        width:80vw;
+    }
+}
+
+
+@media screen and (max-width:1227px){
+    #box2{
+        height: auto;
+        width: auto;
+    }
+}
+
