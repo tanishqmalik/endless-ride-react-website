@@ -2,7 +2,7 @@ import React from 'react'
 import './navbar.css'
 import { navLinks } from '../../constants'
 import {menu,logo} from '../../assets'
-// import { logo } from '../../assets'
+
 
 
 

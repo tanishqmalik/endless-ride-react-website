@@ -28,7 +28,8 @@ export default {
       '996_px': { 'max': '996px' },
       '626_px': { 'max': '626px' },
       '1059_px': { 'max': '1059px' },
-      '430_px':{'max': '430px'}
+      '430_px':{'max': '430px'},
+      '624_px':{'max': '624px'}
     }
   },
   plugins: [],

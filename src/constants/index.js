@@ -1,10 +1,16 @@
 import {
     h1,
     h2,
-    h3
+    h3,
+    mainrider1,
+    mainrider2,
+    mainrider3,
+    mail,
+    phone,
+    address
 } from '../assets/index'
 
-import { mainrider1,mainrider2,mainrider3 } from '../assets/index'
+// import { mainrider1,mainrider2,mainrider3 } from '../assets/index'
 
 export const navLinks =[
     {
@@ -85,5 +91,27 @@ export const data4 =[
     {
         img:mainrider3,
         name:"BILL DOE"
+    }
+]
+
+export const contactData =[
+    {
+        img: mail,
+        heading:"Email",
+        detail1: "free@psdfreebies.com",
+        detail2: "free@psdfreebies.com"
+    },
+
+    {
+        img: phone,
+        heading:"Phone",
+        detail1: "+123 456 7890",
+        detail2: "+123 456 7890"
+    },
+    {
+        img: address,
+        heading:"Address",
+        detail1:"123, Main Road, New City",
+        detail2:"My country 123456"
     }
 ]
