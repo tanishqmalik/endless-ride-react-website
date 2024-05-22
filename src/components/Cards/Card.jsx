@@ -3,7 +3,7 @@ import { data } from '../../constants'
 
 function Card() {
   return (
-    <div className='flex flex-row items-center justify-center  w-screen flex-wrap gap-7 626_px:pt-[70px]'>
+    <div id='card' className='flex flex-row items-center justify-center  w-screen flex-wrap gap-7 626_px:pt-[70px]'>
 
       {data.map((ele, index) => {
         return (

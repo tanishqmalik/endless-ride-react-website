@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div >
       <Hero />
-      <Card />
+      <Card id="card" />
 
       <section id="section3_container" className='flex flex-row w-screen relative mt-40 '>
 
@@ -59,7 +59,7 @@ const Home = () => {
       </section>
 
 
-      <section id="section4" className=" h-[100vh] w-screen  bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center gap-56 pb-52 1059_px:hidden" style={{ backgroundImage: `url(${background5})` }}>
+      <section id="section5" className=" h-[100vh] w-screen  bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center gap-56 pb-52 1059_px:hidden" style={{ backgroundImage: `url(${background5})` }}>
         <div id="part1" className='flex flex-col items-center pb-6'>
           <span className='text-[48px] text-white font-medium'>GUIDED MOTORCYCLE TOURS <span className='text-red-600'>SINCE 1880.</span></span>
           <p className='text-white w-[55%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ad veritatis deserunt obcaecati placeat quos est. Magnam nam ducimus sed,em praesentium iusto?</p>
@@ -106,7 +106,7 @@ const Home = () => {
 
 
 
-      <section id="section5" className='flex flex-col gap-10 1059_px:pt-10 items-center w-screen justify-center'>
+      <section id="section6" className='flex flex-col gap-10 1059_px:pt-10 items-center w-screen justify-center'>
         <div className='flex flex-col gap-5 items-center'>
           <span className='font-oswald font-medium text-[48px]'>TRAVEL BLOG</span>
           <p className='w-[70%]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam voluptatem explicabo maxime doloremque voluptatibus excepturi vitae quidem, labore animi quasi! Sapiente, dolore enim! Autem temporibus deserunt ea tenetur velit a.</p>
@@ -115,7 +115,7 @@ const Home = () => {
       </section>
 
 
-      <section id="section6" className='w-screen h-[30rem] bg-no-repeat bg-center bg-cover flex flex-col justify-center mt-20 relative' style={{ backgroundImage: `url(${section7})` }}>
+      <section id="section7" className='w-screen h-[30rem] bg-no-repeat bg-center bg-cover flex flex-col justify-center mt-20 relative' style={{ backgroundImage: `url(${section7})` }}>
         <div className='text-white flex flex-col items-center gap-5 pb-20'>
           <span className=' text-[48px] font-semibold'>START YOUR JOURNEY</span>
           <p className='w-[70%]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam voluptatem explicabo maxime doloremque voluptatibus excepturi vitae quidem, labore animi quasi! Sapiente, dolore enim! Autem temporibus deserunt ea tenetur velit a.</p>

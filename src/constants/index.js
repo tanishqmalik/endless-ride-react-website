@@ -14,22 +14,22 @@ import {
 
 export const navLinks =[
     {
-        name:"HOME"
+        name:"HOME", id:'hero'
     },
     {
-        name:"DESTINATIONS"
+        name:"DESTINATIONS", id:'section3_container'
     },
     {
-        name:"MOTORCYCLES"
+        name:"MOTORCYCLES",id:'section5'
     },
     {
-        name:"RENTALS"
+        name:"RENTALS", id:'card'
     },
     {
-        name:"BLOG"
+        name:"BLOG", id:'section6'
     },
     {
-        name: "CONTACT"
+        name: "CONTACT", id:'footer'
     }
 ]
 
@@ -45,7 +45,7 @@ export const data = [
         img : h2
     },
     {
-        heading : "Mountains Motorcycle Tour",
+        heading : "Motorcycle Adventure Tours",
         para : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam recusandae tempora exe rcit ationem, enim molestiae mollitia aut excepturi! Quaerat, maxime fug.",
         img : h3
     }

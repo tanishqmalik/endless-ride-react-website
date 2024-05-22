@@ -4,7 +4,7 @@ import Contact from './Contact'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col items-center justify-center w-screen gap-10 mt-24 mb-10'>
+    <div id='footer' className='flex flex-col items-center justify-center w-screen gap-10 mt-24 mb-10'>
 
       <Contact/>
 

@@ -11,6 +11,14 @@ function Navbar() {
   const [ShowNav, SetShowNav] = useState(false);
 
 
+  const handleScroll = (id) => {
+    document.getElementById(id).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  };
+
+
 
   return (
     <div className='flex flex-row items-center'>
@@ -51,11 +59,20 @@ function Navbar() {
 
 
 
+
+
+
+
+
+
+
       <div id="navbar_content" className='absolute top-10 flex  gap-[75px] items-center right-[10px] 1331_px: ml-[24%]'>
         <ul id="navbarmain" className='flex list-none gap-6 text-white cursor-pointer'>
 
           {navLinks.map((link, index) => (
-            <li key={index} className='hover:text-gray-400'>{link.name}</li>
+            <li key={index}  className='hover:text-gray-400'>
+            <a onClick={() => handleScroll(link.id)}>{link.name}</a>
+            </li>
           ))}
         </ul>
 
